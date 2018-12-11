@@ -1,0 +1,25 @@
+{
+    "name": "zabachok/yii2-onion-url",
+    "description": "Url rule class to make github-like urls.",
+    "type": "yii2-extension",
+    "keywords": [
+        "url",
+        "uri",
+        "route"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniil Romanov",
+            "email": "zabachok@zabachok.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "zabachok\\onionUrl\\": "src"
+        }
+    }
+}
