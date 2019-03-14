@@ -22,7 +22,7 @@ You can make route to each layer independently.
 Add to rules section in UrlManager configuration:
 ```php
 [
-    'class' => zabachok/onionUrl/UrlRule::class,
+    'class' => zabachok\onionUrl\UrlRule::class,
     'provider' => YourProvider::class,
     'userRoute' => 'user/view',
     'projectRoute' => 'project/view',
@@ -51,7 +51,7 @@ Example with full UrlManager configuration:
         'login' => 'user/login',
         'logout' => 'user/logout',
         [
-            'class' => zabachok/onionUrl/UrlRule::class,
+            'class' => zabachok\onionUrl\UrlRule::class,
             'provider' => YourProvider::class,
             'userRoute' => 'user/view',
             'projectRoute' => 'project/view',
